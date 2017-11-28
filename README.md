@@ -6,24 +6,12 @@
 
 ***
 
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
-
 ## Objetivo
 
 Replicar el sitio de **Lyft**
 
 * Archivo base: `index.html` con
-  estructura del proyecto y enlaces a tu archivo de estilo (CSS).
+  estructura del proyecto y enlaces a archivo de estilo (CSS).
 
 * En la carpeta `css` tendrás un archivo base `main.css` se encuentran los estilos necesarios del proyecto:
 
@@ -68,13 +56,35 @@ Replicar el sitio de **Lyft**
 están fuera del alcance de este reto. Enfócate en obtener la maquetación
 lo más parecido posible, usando lo aprendido en clase ;)
 
-## A tener en cuenta
+##READ ME HTML Lyft Project 
 
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+Definir, dentro de html, un head a contener: title, idioma y enlaces a utilizar para
+fuentes, iconos y documento css.
+Cerrar head. 
+Abrir body.  
+Dentro de body se inserta la seccion nav.
+Dentro del nav se insertan dos div, uno con clase logo para insertar imagen y
+el otro para la etiqueta ul con sus il para enlistar menu. 
+Definir 3 secciones, la primera con: h2 para texto principal,
+salto de linea,un bloque p para texto secundario, otro salto de linea,
+input, salto de linea,boton y texto discreto.
+Segunda seccion con div 1 para textos del area de beneficios con
+      h2 y p y div 2 para imagen.
+Tercera seccion para los videos y sus textos.
+      Cada div, a su vez, cuenta con otro div y dentro detallamos los textos
+      correspondientes a los clips con etiquetas de texto y elementos iframe.
+			Los primeros 3 div contienen listas.
+				Abrir primer div secundario.
+				Abrir segundo div secundario.
+			Cerrar segundo div secundario.
+			Abrir tercer div secundario.
+			Cerrar tercer div secundario.
+			Cuarto div con imagenes de las tiendas de aplicaciones principales.
+		  Cerrar cuarto div.
+		  Cerramos div principal del footer.
+		El quinto div fuera de div principal de footer contendrá redes sociales.
+	  Cerrar 5to div.
+		Insertar linea horizontal seguida de p con texto deseado.
+		Cerrar footer.
+	  Cerrar body.
+    Cerrar html,
